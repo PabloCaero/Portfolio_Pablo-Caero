@@ -131,7 +131,7 @@ h1{
     
 }
 
-
+/*PROPIEDADES CONTACTO*/
 .Contacto{
     
     background-color: black;
@@ -139,6 +139,13 @@ h1{
     height: 30vw;
     color: whitesmoke;
     
+}
+
+.Contacto h2{
+    display: flex;
+    justify-content: space-between;
+    /*SE DESPLAZA*/
+    padding: 1em;
 }
 
 
