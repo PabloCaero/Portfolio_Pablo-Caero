@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*ACA SE LLAMA A LA TIPOGRAFIA ELEGIDA*/
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+  /*DISEÑO DE PAGINA*/
+  /*DE ESTA FORMA FUNCIONA LA HERENCIA DE CLASES .Fondo, .Portfolio*/
+.Fondo{
+    width: 100vw;
+    height: 107vh;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.BarraNavegacion{
+    margin-top: -7px;
+}
+
+.BarraNavegacion span{
+    color: whitesmoke;
+}
+
+.BarraNavegacion {
+    display: flex;
+    justify-content: space-between;
+    /*SE DESPLAZA*/
+    padding: 2em;
+}
+
+.Menu li{
+list-style: none;
+}
+
+.Menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around; 
+}
+
+/*COLOR DEL MENU*/
+.Menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+
+    
+}
+
+.Menu .Activo{
+    color: white;
+}
+
+/*SE ENCARGA DE PONERLE UN COLOR DE FONDO A LA SELECCION DEL MENU*/
+.Menu a:hover{
+background-color: whitesmoke;
+color: black;
+transition: ease-in .5s;
+}
+
+/*ESTILOS AL Main*/
+
+.Main{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+ 
+}
+
+h1{
+  font-size: 2em;  
+  color: aqua;
+}
+
+/*PROPIEDADES DEL BOTON PARA DESCARGAR CURRICULUM*/
+.DescargarCV{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba(whitesmoke,whitesmoke,whitesmoke,whitesmoke);
+
+}
+
+.DescargarCV:hover{
+    background-color: white;
+    box-shadow: none;
+}
+
+.Main img{
+    width: 350px;
+
+}
+
+
+
+.Proyects_Links{
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.Proyects_Links a{
+    
+    color: whitesmoke;
+    text-decoration: none;  
+ 
+}
+
+.Proyects_Links i{
+    font-size: 2em;
+    
+}
+
+
+.Contacto{
+    
+    background-color: black;
+    width: 100vw;
+    height: 30vw;
+    color: whitesmoke;
+    
+}
+
+
+
+
+.form {
+    position: center;
+    display: flex;
+    flex-direction:column;
+    width: 30vw;
+    margin-top: 2em;
+    
+    
+  }
+  
+  .form name {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+
+  .form input{
+      padding: 10px 20px;
+      margin-bottom: 1em;
+      background: none;
+      border: none;
+      border-bottom: 1px solid whitesmoke;
+      color: whitesmoke;
+  }
+
+  
+
+  .container-contact{
+      padding: 3em;
+      margin: 0 auto;
+  }
+
+  .Contact-Headings h2{
+    font-size: 2em;
+  }
+
+  .form textarea{
+      height: 150px;
+      background: none;
+      color: whitesmoke;
+      padding: 1.5em;
+    border: 1px solid whitesmoke;
+
+    }
+
+.btn-submit{
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
